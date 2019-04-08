@@ -4,6 +4,7 @@ metadata:
   name: sre-admin-changed
   annotations:
     nomos.dev/namespace-selector: sre-supported
+    configmanagement.gke.io/managed: disabled
 subjects:
 - kind: Group
   name: sre@foo-corp.com
