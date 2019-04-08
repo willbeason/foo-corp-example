@@ -3,7 +3,7 @@ apiVersion: rbac.authorization.k8s.io/v1
 metadata:
   name: sre-admin-changed
   annotations:
-    nomos.dev/namespace-selector: sre-supported
+    configmanagement.gke.io/namespace-selector: sre-supported
     configmanagement.gke.io/managed: disabled
 subjects:
 - kind: Group
