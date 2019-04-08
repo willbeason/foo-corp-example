@@ -5,8 +5,6 @@ metadata:
   metadata:
     labels:
       a: b
-    annotations:
-      configmanagement.gke.io/managed: disabled
 subjects:
 - kind: Group
   name: system:serviceaccounts:audit
