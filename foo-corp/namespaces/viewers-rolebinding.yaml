@@ -3,6 +3,7 @@ apiVersion: rbac.authorization.k8s.io/v1
 metadata:
   name: viewers
   metadata:
+    a: b
     configmanagement.gke.io/managed: disabled
 subjects:
 - kind: Group
